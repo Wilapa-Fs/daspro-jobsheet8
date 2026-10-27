@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class Retangle29 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Masukan jumlah baris : ");
-        int baris = sc.nextInt();
+        int baris = input.nextInt();
 
         System.out.print("Masukan jumlah kolom : ");
-        int kolom = sc.nextInt();
+        int kolom = input.nextInt();
 
     for(int i = 1; i <= baris; i++) {
 
@@ -17,7 +17,7 @@ public class Retangle29 {
     }
 
 
-        sc.close();
+        input.close();
         
     }
     
